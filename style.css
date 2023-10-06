@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+#home {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(imgs/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa-search,
+.fa-music {
+    color: #fff;
+    margin-top: 2px;
+}
+
+.logo h1 {
+    margin: 4px 0;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+}
+
+.search {
+    margin-right: 20px;
+}
+
+.ulist,
+.fa-search {
+    margin-top: 10px;
+}
+
+.ulist li {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.ulist li a {
+    color: #fff;
+}
+
+.ulist li:hover a {
+    color: red;
+    background: #fff;
+}
+
+/* -------------------------------her0 part-------------------------------------------------------------- */
+
+.center {
+    width: 470px;
+    padding: 10px;
+    position: absolute;
+    left: 50px;
+    top: 40%;
+}
+
+.txt {
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 7px;
+    color: #fff;
+}
+
+.para {
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    font-size: 25px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.btn button {
+    background: orangered;
+    font-size: 22px;
+    display: block;
+    padding: 0 15px;
+    transition: 0.7s;
+    color: #fff;
+}
+
+.btn button:hover {
+    transform: scale(0.9);
+    background-color: #fff;
+    color: red;
+}
+
+/* -------------------product part-------------------------------------------------------------------- */
+
+#product{
+    width: 100%;
+    background: orangered;
+    padding: 30px;
+}
+
+.middle {
+    width: 100%;
+
+}
+
+.mid-txt {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    margin: 10px 0;
+}
+
+.mid-para {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    text-align: center;
+    margin: 7px 0;
+}
+
+.mid {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.part {
+    width: calc(100% / 3 - 20px);
+}
+
+.mid-img {
+    width: 100%; 
+    position: relative;
+}
+
+.mid-img img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.tour-txt {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.tour-para {
+     margin: 15px 7px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.mid-part{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,1);
+
+}
+
+/* ---------------------------------------------promo part-------------------------------------------------------- */
+
+#promo{
+    width: 100%;
+    background-color: black;
+    padding: 25px;
+}
+
+.promo {
+    width: 100%;
+   
+}
+
+.price {
+    width: calc(100% / 3 - 10px);
+    background: orangered;
+    margin: 10px 0;
+}
+
+.promo-txt {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    margin: 10px 0;
+}
+
+.promo-para {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    text-align: center;
+    margin: 7px 0;
+    margin-bottom: 15px !important;
+}
+
+.prm-reward{
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    
+}
+
+.price label {
+    line-height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.price label i {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* ---------------------About------------------------------------------------------- */
+
+#about{
+    width: 100%;
+    
+}
+
+.about {
+    width: 100%;
+    padding: 25px;
+    background-color: black;
+}
+
+
+.abt {
+    width: 100%;
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.abt-part {
+    width: calc(100% / 3 - 10px);
+    margin: 20px 0;
+    text-align: center;
+
+}
+
+.abt-part h5 {
+    color: #fff;
+    font-size: 30px;
+
+}
+
+.abt-part h6 {
+    color: #fff;
+    font-size: 14px;
+
+}
+
+.abt-txt {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    margin: 10px 0;
+}
+
+.abtpic {
+    text-align: center;
+    padding: 50px;
+    background-image: url(imgs/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.abtpic .abt-para {
+    margin: 20px 0;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    text-align: center;
+}
+
+.abtpic h3 {
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+
+.sub {
+    width: 100%;
+    background-color: orangered;
+    padding: 30px;
+    display: flex;
+}
+
+.sub-box {
+    width: 600px;
+    margin: auto;
+    padding: 15px;
+}
+
+.sub-part {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    outline: none;
+    margin: auto;
+    margin-left: 50px;
+}
+
+.sub-part input {
+    font-size: 18px;
+    padding: 0 15px;
+    color: #fff;
+    border-right: none;
+}
+
+.sub-part button {
+    background: black;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+    transform: 0.6s;
+    color: #fff;
+    border: none;
+    transition: 0.7s;
+}
+
+.sub-part button:hover {
+    transform: scale(1.01);
+    background-color: #fff;
+    color: red;
+    cursor: pointer;;
+}
+
+/* ------------------footer--------------------------------- */
+
+#contact {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(9, 10, 10);
+}
+
+.ftr h3 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 4px;
+    font-size: 22px;
+}
+
+.box {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ftr {
+    width: calc(25% - 10px);
+    margin: 10px 0;
+    padding: 10px;
+
+}
+
+.ftr ul {
+    margin-top: 10px;
+}
+
+.ftr ul li {
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.line {
+    width: 130px;
+    height: 5px;
+    background: rgb(129, 6, 16);
+    margin: 5px auto;
+    border-radius: 50%;
+}
+
+.ftr p {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.prt {
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+.prt i {
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    margin-left:5px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.prt  a {
+    color: black;
+}
+
+.prt a:hover {
+    transform: scale(.9);
+    color: #1203b1;
+}
+/* ---------------------------------------media qr--------------------------------------- */
+
+
+@media (max-width:980px)
+{
+    
+    .mid,.prm-reward,.abt{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .abt-part,.part{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .ftr {
+        width: calc(50% - 10px);
+        text-align: center;
+    }
+
+    .price{
+        margin-bottom: 20px;
+     width: 100%;
+        } 
+
+}
+
+@media (max-width:685px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search {
+        margin-bottom: 10px;
+    }
+    .search i,.logo h1, .logo i{
+        font-size: 20px;
+
+    }
+
+    .logo {
+        margin-top: 10px;
+    }
+      
+
+}
+@media (max-width:580px){
+    .sub-part{
+        margin-left: -3px;
+    }
+
+}
